@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: go-component-youn
     spec:
       containers:
-      - image: go-image:latest
+      - image: quay.io/redhat-appstudio-qe/build-e2e-qmob-tenant/build-suite-positive-mc-humg/go-component-youn@sha256:be72fa52437975467c99c80d0a37a52cc7d73f2321c6d8945a7ecbb359fd9d0a
         name: my-go
         ports:
         - containerPort: 8081
