@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: go-component-youn
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/build-e2e-qmob-tenant/build-suite-positive-mc-humg/go-component-youn@sha256:be72fa52437975467c99c80d0a37a52cc7d73f2321c6d8945a7ecbb359fd9d0a
+        name: my-go
+        resources: {}
+status: {}
